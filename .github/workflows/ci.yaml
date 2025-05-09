@@ -6,7 +6,7 @@ jobs:
   linting:
     runs-on: ${{ matrix.os  }}
 
-    startegy:
+    strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
